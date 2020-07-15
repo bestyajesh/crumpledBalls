@@ -7,11 +7,9 @@ const Render = Matter.Render;
 var dustbinObj, paperObject,groundObject	
 var world;
 
-
 function setup() {
 	createCanvas(1600, 700);
 	rectMode(CENTER);
-
 
 	engine = Engine.create();
 	world = engine.world;
@@ -20,7 +18,6 @@ function setup() {
 	groundObject=new ground(width/2,670,width,20);
 	//Create a Ground
 	
-
 	var render = Render.create({
 	  element: document.body,
 	  engine: engine,
