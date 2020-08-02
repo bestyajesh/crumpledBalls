@@ -4,11 +4,9 @@ class paper
 	{
 		var options={
 			isStatic:false,
-			restitution:0.3,
+			restitution:0.4,
 			friction:0.5,
 			density:1.2
-
-			
 			}
 		this.x=x;
 		this.y=y;
